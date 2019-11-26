@@ -8,7 +8,7 @@
 
 ##### Integrantes:
 1. *[Luis Antonio García García]* *[A01021865]*
-2. *[Saúl Montes de Oca]* *[A01025975]*
+2. *Saúl Montes de Oca Martínez* *A01025975*
 
 ---
 ## 1. Aspectos generales
