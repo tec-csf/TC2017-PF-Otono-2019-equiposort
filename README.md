@@ -7,7 +7,7 @@
 ##### Campus: *Santa Fe*
 
 ##### Integrantes:
-1. *[Luis Antonio García García]* *[A01021865]*
+1. *Luis Antonio García García* *A01021865*
 2. *Saúl Montes de Oca Martínez* *A01025975*
 
 ---
