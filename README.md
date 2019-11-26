@@ -64,11 +64,11 @@ Algunos inhibidores que se detectaron fue en la creación de el tablero, ya que 
 
 ## 6. Tabla de resultados
 
-
+Las tablas se pueden observar en el siguiente link: https://docs.google.com/document/d/19-jIJYQtpgNT0zPFl561sVL7gmqnBBaATBZ7aqkwhVQ/edit?usp=sharing
 
 ## 7. Gráfica(s) comparativa(s)
 
-*[Incluya aquí la(s) gráfica(s) comparativa(s).]*
+Las gráficas se pueden encontrar en el siguiente link: https://docs.google.com/document/d/19-jIJYQtpgNT0zPFl561sVL7gmqnBBaATBZ7aqkwhVQ/edit?usp=sharing
 
 ## 8. Interpretación de los resultados
 
@@ -76,8 +76,8 @@ Algunos inhibidores que se detectaron fue en la creación de el tablero, ya que 
 
 ## 9. Guía paso a paso
 
-*[Incluya aquí la guía para la ejecución de los códigos.]*
+Descargar los códigos reinas0.c y secReinas.c. Los códigos guardarlos en la carpeta de descargas y posteriormente para poder compilar se debe tener instalado el compilador g++, si se tiene abrir la terminal en MAC, de igual nombre en Linux o el cmd en Windows, se debe cambiar al directorio de descargas con el comando -->cd Downloads o cd Descargas, así finalmente usar g++ secReinas.c -o cualquiernombreparaejecutable -fpermissive en este caso del código secuencial, mientras que para el omp usar g++ reinas0.c -o cualquiernombreparaejecutable -fpermissive -fopenmp.
+Ya compilados se usa el comando ./nombredelejecutable y ya en el programa se pregunta cual será el número de reinas que se colocaran en el tablero.
 
 ## 10. Referencias
-
-*[Incluya aquí las referencias a sitios de interés y cualquier otra información que haya utilizado para realizar el proyecto y que le puedan ser de utilidad a otras personas que quieran usarlo como referencia]*
+https://gist.github.com/urielaero/4696193
