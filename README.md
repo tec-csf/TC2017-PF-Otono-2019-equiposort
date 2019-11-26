@@ -7,8 +7,8 @@
 ##### Campus: *Santa Fe*
 
 ##### Integrantes:
-1. *[Poner aquí Nombre y Apellidos del integrante 1]* *[Matrícula]*
-2. *[Poner aquí Nombre y Apellidos del integrante 2]* *[Matrícula]*
+1. *[Luis Antonio García García]* *[A01021865]*
+2. *[Saúl Montes de Oca]* *[A0102]*
 
 ---
 ## 1. Aspectos generales
@@ -47,15 +47,16 @@ Como parte de la entrega final del proyecto, se debe incluir la siguiente inform
 
 ## 2. Descripción del problema
 
-*[Incluya aquí la descripción del problema a resolver.]*
+El problema que se busca resolver es conocido originalmente como el problema de las 8 reinas, sin embargo la variente que implementamos consiste en resolver con N reinas, siempre y cuando el número de reinas a colocar sea mayor a 3.
+La solución debe estar mostrada en un tablero donde observaremos que las N reinas colocadas no se amenazan entre sí, esto debido a las reglas del ajedrez que dicen que la reina puede moverse a cualquier dirección y con cualquier número de casillas que estén libres. Es así que no deben existir reinas en la misma fila,columna y diagonal.
 
 ## 3. Solución secuencial
 
-*[Incluya aquí la descripción de la solución secuencial.]*
+La solución planteada de forma secuencial consiste en preguntar al usuario cuantas reinas desea colocar. Posterior a eso, el programa crea el tablero con n filas, n columnas y 2n diagonales, siguiendo esto se rellena el tablero con números 1 para que de esta manera entrando a la función que resolvera el problema se puedan checar si valores en la columna,fila o diagonal se repiten, así entonces la función si se repite borrará cualquier valor que afecte a la resolución del problema, finalmente tras acabar con las iteraciones se manda a llamar una función que imprimirá el tablero, esta impresión la hace con un if, en caso de que el valor que quedó fue un 1 entonces se sustituye por una Q indicando que es una reina, de lo contrario se imprime un 0.
 
 ## 4. Análisis de los inhibidores del paralelismo
 
-*[Incluya aquí el análisis de los inhibidores presentes en su problema, así como la solución a los mismos.]*
+Algunosinhibidores que se detectaron fue en la creación de el tablero, ya que creaba las columnas, filas y diagonales por separado, así como el llenado del tablero, igualmente el for del llenado del tablero se detectó que podría ser un problema que causara un aumento de tiempo de solución.
 
 ## 5. Solución paralela
 
@@ -63,7 +64,7 @@ Como parte de la entrega final del proyecto, se debe incluir la siguiente inform
 
 ## 6. Tabla de resultados
 
-*[Incluya aquí la tabla con los resultados de las mediciones.]*
+
 
 ## 7. Gráfica(s) comparativa(s)
 
