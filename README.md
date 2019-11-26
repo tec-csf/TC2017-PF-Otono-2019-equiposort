@@ -73,7 +73,7 @@ Las gráficas se pueden encontrar en el siguiente link: https://docs.google.com/
 
 ## 8. Interpretación de los resultados
 
-*[Incluya aquí la interpretación de los resultados.]*
+*Con los resultados se concluyó que con este algoritmo en específico, entre mayor es el numero de n mayor, la diferencia que se puede notar en la diferencia de los tiempos es mayor entre secuencial y paralelo. Los resultados de diferentes threads en guided, static y dynamic tuvieron semejanza en los tiempos de ejecución como se pudo apreciar en las tablas de comparación, aunque resaltó que en el uso de  guided se vio una muy lijera rapidez a diferencia de los demás.*
 
 ## 9. Guía paso a paso
 
