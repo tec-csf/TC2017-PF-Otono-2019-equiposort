@@ -56,7 +56,7 @@ La solución planteada de forma secuencial consiste en preguntar al usuario cuan
 
 ## 4. Análisis de los inhibidores del paralelismo
 
-Algunosinhibidores que se detectaron fue en la creación de el tablero, ya que creaba las columnas, filas y diagonales por separado, así como el llenado del tablero, igualmente el for del llenado del tablero se detectó que podría ser un problema que causara un aumento de tiempo de solución.
+Algunos inhibidores que se detectaron fue en la creación de el tablero, ya que creaba las columnas, filas y diagonales por separado, así como el llenado del tablero, igualmente el for del llenado del tablero se detectó que podría ser un problema que causara un aumento de tiempo de solución.
 
 ## 5. Solución paralela
 
