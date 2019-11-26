@@ -60,8 +60,8 @@ Algunos inhibidores que se detectaron fue en la creación de el tablero, ya que 
 
 ## 5. Solución paralela
 
-*Oportunidades de paralelización*
-Ya que para la solución del problema se usa un algoritmo recursivo no tenía caso paralelizar la solición debido a que es dependiente. Se encontró como oportunidad la paralelización del metodo de llenado de tabla de 1's, de la creación y del llenado de las tablas (que son  ciclos) ya que estos métodos son clave para encontrar la solución en el algoritmo creado.
+#Oportunidades de paralelización.
+Ya que para la solución del problema se usa un algoritmo recursivo no tenía caso paralelizar la solición debido a que es un proceso dependiente. Se encontró como oportunidad la paralelización del metodo de llenado de tabla de 1's, de la creación y del llenado de las tablas (que son  ciclos) ya que estos métodos son clave para encontrar la solución en el algoritmo creado.
 
 ## 6. Tabla de resultados
 
